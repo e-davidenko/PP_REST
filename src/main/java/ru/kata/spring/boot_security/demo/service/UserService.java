@@ -24,6 +24,4 @@ public interface UserService extends UserDetailsService {
 
     void deleteUserById(int id);
     Role getRoleById(int id);
-
-
 }
