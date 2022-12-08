@@ -2,7 +2,7 @@ $(async function() {
     await thisUser();
 });
 async function thisUser() {
-    fetch("http://localhost:8080/api/user")
+    fetch("http://localhost:8080/user/api/user")
         .then(res => res.json())
         .then(data => {
             // Добавляем информацию в шапку
